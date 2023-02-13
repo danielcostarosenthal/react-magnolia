@@ -1,17 +1,22 @@
-import Image from './components/Image'
-import Paragraph from './components/Paragraph'
-import Headline from './components/Headline'
 import Basic from './pages/Basic'
-import List from './components/List'
+import H1 from './components/basic/H1'
+import H2 from './components/basic/H2'
+import H3 from './components/basic/H3'
+import H4 from './components/basic/H4'
+import H5 from './components/basic/H5'
+import Image from './components/basic/Image'
+import Paragraph from './components/basic/Paragraph'
 
 const config = {
 	componentMappings: {
 		'react-module:pages/basic': Basic,
-
-		'spa-lm:components/image': Image,
-		'spa-lm:components/paragraph': Paragraph,
-		'spa-lm:components/headline': Headline,
-		'spa-lm:components/list': List
+		'spa-lm:components/basic/h1': H1,
+		'spa-lm:components/basic/h2': H2,
+		'spa-lm:components/basic/h3': H3,
+		'spa-lm:components/basic/h4': H4,
+		'spa-lm:components/basic/h5': H5,
+		'spa-lm:components/basic/image': Image,
+		'spa-lm:components/basic/paragraph': Paragraph
 	}
 }
 

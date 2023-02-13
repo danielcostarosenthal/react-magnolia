@@ -10,11 +10,17 @@ areas:
     main:
         title: Main Area
         availableComponents:
+            H1:
+                id: spa-lm:components/basic/h1
+            H2:
+                id: spa-lm:components/basic/h2
+            H3:
+                id: spa-lm:components/basic/h3
+            H4:
+                id: spa-lm:components/basic/h4
+            H5:
+                id: spa-lm:components/basic/h5
             Image:
-                id: spa-lm:components/image
+                id: spa-lm:components/basic/image
             Paragraph:
-                id: spa-lm:components/paragraph
-            Headline:
-                id: spa-lm:components/headline
-            List:
-                id: spa-lm:components/list
+                id: spa-lm:components/basic/paragraph

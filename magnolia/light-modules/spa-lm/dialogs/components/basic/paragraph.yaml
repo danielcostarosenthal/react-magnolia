@@ -1,0 +1,15 @@
+label: Paragraph
+form:
+    properties:
+        text:
+            label: Paragraph
+            placeholder: Paragraph text
+            required: true
+            $type: richTextField
+            i18n: true
+        className:
+            label: Add class(es)
+            placeholder: Add class(es)
+            required: false
+            $type: textField
+            i18n: false

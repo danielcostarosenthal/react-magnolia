@@ -1,0 +1,24 @@
+label: Image
+form:
+    properties:
+        image:
+            label: Src
+            placeholder: Choose image
+            required: true
+            $type: linkField
+            i18n: false
+            chooser:
+                workbenchChooser:
+                    appName: dam-chooser
+        alt:
+            label: Alt
+            placeholder: Alternative text
+            required: true
+            $type: textField
+            i18n: false
+        className:
+            label: Class
+            placeholder: Add class(es)
+            required: false
+            $type: textField
+            i18n: false
