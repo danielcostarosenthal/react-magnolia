@@ -1,0 +1,28 @@
+label: Link
+form:
+    properties:
+        text:
+            label: Link Text
+            placeholder: Link text
+            required: true
+            $type: textField
+            i18n: true
+        href:
+            label: Href
+            placeholder: Add location
+            required: true
+            $type: textField
+            defaultValue: https://
+            i18n: false
+        target:
+            label: Target
+            required: false
+            $type: textField
+            defaultValue: _blank
+            i18n: false
+        className:
+            label: Add class(es)
+            placeholder: Add class(es)
+            required: false
+            $type: textField
+            i18n: false

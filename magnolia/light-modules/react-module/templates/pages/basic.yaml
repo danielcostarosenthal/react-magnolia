@@ -22,5 +22,7 @@ areas:
                 id: spa-lm:components/basic/h5
             Image:
                 id: spa-lm:components/basic/image
+            Link:
+                id: spa-lm:components/basic/link
             Paragraph:
                 id: spa-lm:components/basic/paragraph
