@@ -24,7 +24,7 @@ areas:
                 id: spa-lm:components/basic/image
             Link:
                 id: spa-lm:components/basic/link
-            Paragraph:
-                id: spa-lm:components/basic/paragraph
             List:
                 id: spa-lm:components/basic/list
+            Paragraph:
+                id: spa-lm:components/basic/paragraph
