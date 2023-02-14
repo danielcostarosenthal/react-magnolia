@@ -27,4 +27,4 @@ areas:
             Paragraph:
                 id: spa-lm:components/basic/paragraph
             List:
-                id: spa-lm:components/list
+                id: spa-lm:components/basic/list

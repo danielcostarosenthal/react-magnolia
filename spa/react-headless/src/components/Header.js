@@ -1,14 +1,6 @@
 import React from 'react'
-import Logo from './Logo'
-import Headline from './Headline'
-import Navigation from './Navigation'
+import { EditableArea } from '@magnolia/react-editor'
 
-const Header = () => (
-	<header>
-		<Logo />
-		<Headline />
-		<Navigation />
-	</header>
-)
+const Header = () => <header>Header</header>
 
 export default Header

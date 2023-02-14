@@ -6,7 +6,8 @@ import H4 from './components/basic/H4'
 import H5 from './components/basic/H5'
 import Image from './components/basic/Image'
 import Link from './components/basic/Link'
-import List from './components/List'
+import List from './components/basic/List'
+import ListItem from './components/basic/ListItem'
 import Paragraph from './components/basic/Paragraph'
 import Header from './components/Header'
 
@@ -20,7 +21,8 @@ const config = {
 		'spa-lm:components/basic/h5': H5,
 		'spa-lm:components/basic/image': Image,
 		'spa-lm:components/basic/link': Link,
-		'spa-lm:components/list': List,
+		'spa-lm:components/basic/list': List,
+		'spa-lm:components/basic/listItem': ListItem,
 		'spa-lm:components/basic/paragraph': Paragraph,
 		'spa-lm:components/header': Header
 	}

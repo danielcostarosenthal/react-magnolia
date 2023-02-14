@@ -1,0 +1,15 @@
+label: List Item
+form:
+    properties:
+        text:
+            label: Item text
+            placeholder: Item text
+            required: true
+            $type: textField
+            i18n: true
+        className:
+            label: Add class(es)
+            placeholder: Add class(es)
+            required: false
+            $type: textField
+            i18n: false

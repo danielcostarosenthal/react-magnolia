@@ -23,6 +23,7 @@ function App() {
 
 	return (
 		<>
+			<Header />
 			<PageLoader pathname={pathname} />
 		</>
 	)
